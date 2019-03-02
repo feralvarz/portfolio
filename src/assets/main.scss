@@ -1,0 +1,35 @@
+html {
+  font-size: 24px;
+  color: #1f1f22;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #fafafa;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  // font-weight: 600;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
+  &.lead {
+    font-size: 1rem;
+  }
+  &.small {
+    font-size: 0.6rem;
+  }
+}
+
+.about {
+  padding-top: 2rem;
+}
