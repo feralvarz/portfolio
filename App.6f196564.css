@@ -1,0 +1,119 @@
+html {
+  font-size: 24px;
+  color: #1f1f22;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+a.external {
+  text-transform: uppercase;
+  font-size: 70%;
+  font-family: "Work Sans", sans-serif;
+  border: 1px solid #aaa;
+  padding: 5px;
+  transition: all 120ms linear;
+}
+a.external:hover {
+  background: rgba(33, 33, 33, 0.8);
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
+}
+p.lead {
+  font-size: 1rem;
+}
+p.small {
+  font-size: 0.6rem;
+}
+
+.about {
+  height: 100vh;
+  min-height: 900px;
+}
+.about > .container {
+  max-width: 80%;
+}
+.about .content {
+  padding: 3rem 2.5rem;
+}
+
+.hola {
+  height: 90vh;
+}
+
+#navigation {
+  transition: all 300ms linear;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#navigation.active {
+  background: rgba(241, 241, 243, 0.98);
+}
+
+.vh-75 {
+  height: 80vh;
+}
+
+.work {
+  position: relative;
+  margin: 0 1rem 1.5rem;
+}
+.work > .container {
+  max-width: 80%;
+}
+.work:before, .work:after {
+  content: "";
+  width: 100%;
+  height: 50%;
+  z-index: 0;
+  position: absolute;
+  display: block;
+}
+.work:before {
+  top: 0;
+  background: rgba(240, 240, 240, 0.9);
+}
+.work:after {
+  bottom: 0;
+  background: rgba(240, 240, 240, 0.5);
+}
+.work .content {
+  position: relative;
+  z-index: 1;
+  padding: 5rem 2.5rem;
+}
+.work .title {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Lora";
+}
+.work.amm:before {
+  background-color: rgba(176, 195, 7, 0.32);
+}
+.work.amm:after {
+  background-color: rgba(176, 195, 7, 0.2);
+}
+.work.djf:before {
+  background-color: rgba(49, 36, 66, 0.15);
+}
+.work.djf:after {
+  background-color: rgba(49, 36, 66, 0.1);
+}
+.work.lls:before {
+  background-color: rgba(123, 1, 1, 0.15);
+}
+.work.lls:after {
+  background-color: rgba(123, 1, 1, 0.09);
+}
