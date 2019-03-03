@@ -18,16 +18,6 @@ class Home extends Component {
             </div>
           </div>
         </div>
-
-        <div className="work">
-          <div className="container">
-            <div className="content">
-              <h2 className="title display-4 mb-4">Centric Digital</h2>
-              <img src={centric} alt="asd" className="img-fluid shadow" />
-            </div>
-          </div>
-        </div>
-
         <div className="work amm">
           <div className="container">
             <div className="content">
@@ -39,11 +29,11 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className="work djf">
+        <div className="work">
           <div className="container">
             <div className="content">
-              <h2 className="title display-4 mb-4">Dear Jack Foundation</h2>
-              <img src={djf} alt="asd" className="img-fluid shadow" />
+              <h2 className="title display-4 mb-4">Centric Digital</h2>
+              <img src={centric} alt="asd" className="img-fluid shadow" />
             </div>
           </div>
         </div>
@@ -55,6 +45,14 @@ class Home extends Component {
                 The Leukemia & Lymphoma Society®
               </h2>
               <img src={lls} alt="asd" className="img-fluid shadow" />
+            </div>
+          </div>
+        </div>
+        <div className="work djf">
+          <div className="container">
+            <div className="content">
+              <h2 className="title display-4 mb-4">Dear Jack Foundation</h2>
+              <img src={djf} alt="asd" className="img-fluid shadow" />
             </div>
           </div>
         </div>

@@ -97,21 +97,23 @@ p {
 
   &.amm {
     &:before {
-      background-color: rgba(#d3565a, 0.1);
+      // background-color: rgba(#d3565a, 0.1);
+      background-color: rgba(#b0c307, 0.32);
     }
 
     &:after {
-      background-color: rgba(#d3565a, 0.06);
+      background-color: rgba(#b0c307, 0.2);
     }
   }
 
   &.djf {
     &:before {
-      background-color: rgba(#00e8ca, 0.1);
+      background-color: rgba(#312442, 0.15);
+      // background-color: rgba(#ff0453, 0.1);
     }
 
     &:after {
-      background-color: rgba(#00e8ca, 0.06);
+      background-color: rgba(#312442, 0.1);
     }
   }
 
