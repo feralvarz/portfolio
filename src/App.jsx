@@ -45,7 +45,7 @@ class App extends Component {
         <Navigation active={this.state.isTop} />
 
         <PosedRouter>
-          <Home path="/" />
+          <Home path="/" scrollActive={this.state.isTop} />
           <About exact="true" path="/about" />
         </PosedRouter>
       </div>

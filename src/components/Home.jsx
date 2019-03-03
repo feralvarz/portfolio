@@ -4,6 +4,7 @@ import amm from "../assets/images/work/amitw.png";
 import djf from "../assets/images/work/dearjack.png";
 import lls from "../assets/images/work/lls.png";
 import dim from "../assets/images/work/dim.jpg";
+import scroll from "../assets/images/scroll.png";
 import Work from "./Work";
 
 class Home extends Component {
@@ -58,12 +59,19 @@ class Home extends Component {
       <div>
         <div className="container">
           <div className="hola row align-items-center">
-            <div className="col-6 ">
+            <div className="col-7 text-center mx-auto ">
               <p className="display-4">Welcome.</p>
               <p>
-                I am Fernando Alvarez, Frontend Developer. My goal is provide
-                efficient solutions for each particular client.
+                I am Fernando Alvarez, Frontend Developer. <br /> My goal is
+                provide efficient solutions for each particular client.
               </p>
+              <img
+                width="40"
+                style={{ marginTop: 80 }}
+                src={scroll}
+                alt="Scroll Down icon"
+                className={this.props.scrollActive ? "fade show" : "fade"}
+              />
             </div>
           </div>
         </div>

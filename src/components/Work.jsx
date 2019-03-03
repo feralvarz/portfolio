@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "@reach/router";
 
 class Work extends Component {
   render() {
@@ -8,7 +7,11 @@ class Work extends Component {
       <div className={"work " + id}>
         <div className="container">
           <div className="content">
-            <img src={img} alt="asd" className="img-fluid shadow mb-4" />
+            <img
+              src={img}
+              alt={description}
+              className="img-fluid shadow mb-4"
+            />
 
             <h2 className="h5 mb-1">{title}</h2>
             <p className="small">{description}</p>

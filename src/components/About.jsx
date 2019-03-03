@@ -8,7 +8,7 @@ class About extends Component {
         <div className="container h-100">
           <div className="content h-100">
             <div className="row h-100 align-items-center">
-              <div className="col">
+              <div className="col-lg-10 mx-auto">
                 <div className="row mb-4">
                   <div className="col-lg-5 col-xl-3">
                     <img
