@@ -7,7 +7,6 @@ html {
 
 body {
   font-family: "Work Sans", sans-serif;
-  // background-color: #fafafa;
 }
 
 a {
@@ -46,8 +45,6 @@ p {
 }
 
 .about {
-  // margin-top: 4rem;
-  // margin-bottom: 4rem;
   height: 100vh;
   min-height: 900px;
 
@@ -58,9 +55,6 @@ p {
   .content {
     padding: 3rem 2.5rem;
   }
-
-  // background-color: #bcbcc1;
-  // padding-top: 2rem;
 }
 
 .hola {
@@ -74,7 +68,6 @@ p {
   letter-spacing: 2px;
   &.active {
     background: rgba(#f1f1f3, 0.98);
-    // color: #f0f0f0;
   }
 }
 
