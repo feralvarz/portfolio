@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <div className="container about">
-        <div className="row">
+        <div className="row vh-100 align-items-center">
           <div className="col-lg-4">
             <img
               className="img-fluid mb-2"

@@ -1,11 +1,13 @@
 html {
   font-size: 24px;
   color: #1f1f22;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   font-family: "Work Sans", sans-serif;
-  background-color: #fafafa;
+  // background-color: #fafafa;
 }
 
 a {
@@ -32,4 +34,94 @@ p {
 
 .about {
   padding-top: 2rem;
+}
+
+.hola {
+  height: 90vh;
+}
+
+#navigation {
+  transition: all 300ms linear;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  &.active {
+    background: rgba(#f1f1f3, 0.98);
+    // color: #f0f0f0;
+  }
+}
+
+// Helpers
+
+.vh-75 {
+  height: 80vh;
+}
+
+.work {
+  position: relative;
+  margin: 0 1rem 1.5rem;
+  > .container {
+    max-width: 80%;
+  }
+  &:before,
+  &:after {
+    content: "";
+    width: 100%;
+    height: 50%;
+    z-index: 0;
+    position: absolute;
+    display: block;
+  }
+
+  &:before {
+    top: 0;
+    background: rgba(#f0f0f0, 0.9);
+  }
+
+  &:after {
+    bottom: 0;
+    background: rgba(#f0f0f0, 0.5);
+  }
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 5rem 2.5rem;
+  }
+  .title {
+    font-size: 22px;
+    // text-transform: uppercase;
+    font-weight: 600;
+    // letter-spacing: 1.5px;
+    font-family: "Lora";
+  }
+
+  &.amm {
+    &:before {
+      background-color: rgba(#d3565a, 0.1);
+    }
+
+    &:after {
+      background-color: rgba(#d3565a, 0.06);
+    }
+  }
+
+  &.djf {
+    &:before {
+      background-color: rgba(#00e8ca, 0.1);
+    }
+
+    &:after {
+      background-color: rgba(#00e8ca, 0.06);
+    }
+  }
+
+  &.lls {
+    &:before {
+      background-color: rgba(#7b0101, 0.15);
+    }
+
+    &:after {
+      background-color: rgba(#7b0101, 0.09);
+    }
+  }
 }

@@ -25,12 +25,25 @@ const PosedRouter = ({ children }) => (
 );
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isTop: false
+    };
+  }
+  componentDidMount() {
+    document.addEventListener("scroll", () => {
+      const isTop = window.scrollY < 50;
+      if (isTop !== this.state.isTop) {
+        this.setState({ isTop });
+      }
+    });
+  }
   render() {
     return (
       <div>
-        <div className="container">
-          <Navigation />
-        </div>
+        <Navigation active={this.state.isTop} />
+
         <PosedRouter>
           <Home path="/" />
           <About exact="true" path="/about" />
