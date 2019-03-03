@@ -12,6 +12,19 @@ body {
 
 a {
   color: inherit;
+  &.external {
+    text-transform: uppercase;
+    font-size: 70%;
+    font-family: "Work Sans", sans-serif;
+    border: 1px solid #aaa;
+    padding: 5px;
+    transition: all 120ms linear;
+    &:hover {
+      background: rgba(#212121, 0.8);
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
 
 h1,
@@ -33,7 +46,20 @@ p {
 }
 
 .about {
-  padding-top: 2rem;
+  position: relative;
+  height: 100vh;
+  // margin: 4rem 1rem 0;
+
+  > .container {
+    max-width: 80%;
+  }
+
+  .content {
+    padding: 3rem 2.5rem;
+  }
+
+  background-color: #bcbcc1;
+  // padding-top: 2rem;
 }
 
 .hola {

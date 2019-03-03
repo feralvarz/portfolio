@@ -33,7 +33,7 @@ class App extends Component {
   }
   componentDidMount() {
     document.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 50;
+      const isTop = window.scrollY < 100;
       if (isTop !== this.state.isTop) {
         this.setState({ isTop });
       }

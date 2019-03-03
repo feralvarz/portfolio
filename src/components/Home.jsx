@@ -3,8 +3,57 @@ import centric from "../assets/images/work/centricdigital-2.png";
 import amm from "../assets/images/work/amitw.png";
 import djf from "../assets/images/work/dearjack.png";
 import lls from "../assets/images/work/lls.png";
+import dim from "../assets/images/work/dim.jpg";
+import Work from "./Work";
+
 class Home extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      works: [
+        {
+          id: "amm",
+          title: "Andrew McMahon in the Wilderness",
+          img: amm,
+          url: "https://www.andrewmcmahon.com/",
+          description: "Website built with Wordpress + Shoppify store."
+        },
+        {
+          id: "centric",
+          title: "Centric Digital",
+          img: centric,
+          url: "https://centricdigital.com/",
+          description: "Website built with Wordpress."
+        },
+        {
+          id: "lls",
+          title: "The Leukemia & Lymphoma Society®",
+          img: lls,
+          url: "https://www.lls.org/",
+          description:
+            "HTML markup and styles applying rules from their style guide."
+        },
+        {
+          id: "djf",
+          title: "Dear Jack Foundation",
+          img: djf,
+          url: "http://www.dearjackfoundation.org/",
+          description: "Website built with Wordpress."
+        },
+        {
+          id: "dim",
+          title: "Dimensions™",
+          img: dim,
+          url: null,
+          description:
+            "Web Application, built with Angular 6, Angular Material and D3.js"
+        }
+      ]
+    };
+  }
   render() {
+    const works = this.state.works;
     return (
       <div>
         <div className="container">
@@ -12,50 +61,25 @@ class Home extends Component {
             <div className="col-6 ">
               <p className="display-4">Welcome.</p>
               <p>
-                I am Fernando, a Frontend Developer my goal is provide efficient
-                solutions for each particular client.
+                I am Fernando Alvarez, Frontend Developer. My goal is provide
+                efficient solutions for each particular client.
               </p>
             </div>
           </div>
         </div>
-        <div className="work amm">
-          <div className="container">
-            <div className="content">
-              <h2 className="title display-4 mb-4">
-                Andrew McMahon in the Wilderness
-              </h2>
-              <img src={amm} alt="asd" className="img-fluid shadow" />
-            </div>
-          </div>
-        </div>
 
-        <div className="work">
-          <div className="container">
-            <div className="content">
-              <h2 className="title display-4 mb-4">Centric Digital</h2>
-              <img src={centric} alt="asd" className="img-fluid shadow" />
-            </div>
-          </div>
-        </div>
-
-        <div className="work lls">
-          <div className="container">
-            <div className="content">
-              <h2 className="title display-4 mb-4">
-                The Leukemia & Lymphoma Society®
-              </h2>
-              <img src={lls} alt="asd" className="img-fluid shadow" />
-            </div>
-          </div>
-        </div>
-        <div className="work djf">
-          <div className="container">
-            <div className="content">
-              <h2 className="title display-4 mb-4">Dear Jack Foundation</h2>
-              <img src={djf} alt="asd" className="img-fluid shadow" />
-            </div>
-          </div>
-        </div>
+        {works.map(work => {
+          return (
+            <Work
+              key={"work-" + work.id}
+              id={work.id}
+              title={work.title}
+              img={work.img}
+              url={work.url}
+              description={work.description}
+            />
+          );
+        })}
       </div>
     );
   }
