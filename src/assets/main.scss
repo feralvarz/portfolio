@@ -46,8 +46,10 @@ p {
 }
 
 .about {
-  position: relative;
+  // margin-top: 4rem;
+  // margin-bottom: 4rem;
   height: 100vh;
+  min-height: 900px;
 
   > .container {
     max-width: 80%;
