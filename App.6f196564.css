@@ -141,10 +141,12 @@ p.small {
     padding: 2rem 0.5rem;
   }
 
-  .about {
-    padding: 4rem 1.5rem 0;
+  .about.ab-xs {
+    margin-top: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
-  .about .profile-pic {
+  .about.ab-xs .profile-pic {
     display: none;
   }
 }

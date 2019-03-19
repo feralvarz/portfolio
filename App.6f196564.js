@@ -34986,7 +34986,7 @@ function (_Component) {
     key: "render",
     value: function render() {
       return _react.default.createElement("div", {
-        className: "about container"
+        className: "about container ab-xs"
       }, _react.default.createElement("div", {
         className: "row h-100 align-items-center"
       }, _react.default.createElement("div", {
@@ -35402,7 +35402,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50878" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50317" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
