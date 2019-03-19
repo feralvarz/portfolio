@@ -3,10 +3,13 @@ html {
   color: #1f1f22;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+  height: 100%;
 }
 
 body {
   font-family: "Work Sans", sans-serif;
+  height: 100%;
 }
 
 a {
@@ -142,7 +145,8 @@ p.small {
   }
 
   .about.ab-xs {
-    margin-top: 4rem;
+    height: initial;
+    padding-top: 4rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
