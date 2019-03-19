@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/feralvarz/portfolio",
+  "homepage": "https://feralvarz.github.io/portfolio/",
   "dependencies": {
     "@reach/router": "^1.2.1",
     "components": "^0.1.0",
@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "start": "react-scripts start",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url /portfolio/",
     "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

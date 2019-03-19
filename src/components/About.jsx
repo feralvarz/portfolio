@@ -8,7 +8,7 @@ class About extends Component {
         <div className="row h-100 align-items-center">
           <div className="col-lg-10 mx-auto">
             <div className="row mb-4">
-              <div className="col-md-3">
+              <div className="col-md-4 col-lg-3 profile-pic">
                 <img
                   className="img-fluid mb-2 shadow"
                   src={profile_img}
@@ -16,7 +16,7 @@ class About extends Component {
                 />
               </div>
 
-              <div className="col-md-6">
+              <div className="col col-lg-6">
                 <h2 className="h5">About</h2>
                 <p>
                   In the past 11 years, Fernando was part of a wide range of
@@ -35,7 +35,7 @@ class About extends Component {
             <div className="row">
               <div className="col-xl-8">
                 <div className="row">
-                  <div className="col">
+                  <div className="col-md">
                     <h2 className="h6 mb-1">Skills</h2>
                     <p className="small">
                       CSS3, HTML5, Javascript, React, Angular, Wordpress,
@@ -44,7 +44,7 @@ class About extends Component {
                       Development.
                     </p>
                   </div>
-                  <div className="col">
+                  <div className="col-md">
                     <h2 className="h6 mb-1">Clients</h2>
                     <p className="small">
                       AIG®, Kaiser Permanente® , Humana™, The Leukemia &

@@ -77,6 +77,7 @@ p {
   height: 80vh;
 }
 
+// Work section
 .work {
   position: relative;
   margin: 0 1rem 1.5rem;
@@ -144,6 +145,36 @@ p {
 
     &:after {
       background-color: rgba(#7b0101, 0.09);
+    }
+  }
+}
+
+@media screen and (max-width: 766px) {
+  html {
+    font-size: 28px;
+  }
+  .hola {
+    // height: 720px;
+    min-height: 420px;
+    .display-4 {
+      font-size: 2rem;
+    }
+  }
+
+  .work {
+    margin-left: 0;
+    margin-right: 0;
+    & > .container {
+      max-width: 95%;
+    }
+    .content {
+      padding: 2rem 0.5rem;
+    }
+  }
+  .about {
+    padding: 4rem 1.5rem 0;
+    .profile-pic {
+      display: none;
     }
   }
 }

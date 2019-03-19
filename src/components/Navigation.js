@@ -13,12 +13,12 @@ class Navigation extends Component {
       >
         <header className="container">
           <nav className="navbar navbar-expand-lg navbar-light p-0 w-100">
-            <Link to="/" className="">
+            <Link to="/portfolio" className="">
               Fernando Alvarez
             </Link>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link to="/about" className="nav-link">
+                <Link to="/portfolio/about" className="nav-link">
                   About
                 </Link>
               </li>

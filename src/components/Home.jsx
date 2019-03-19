@@ -58,16 +58,16 @@ class Home extends Component {
     return (
       <div>
         <div className="container">
-          <div className="hola row align-items-center">
-            <div className="col-7 text-center mx-auto ">
-              <p className="display-4">Welcome.</p>
+          <div className="row align-items-center hola">
+            <div className="col-md-7 text-center mx-auto ">
+              <h1 className="display-4 mt-4 mt-md-0">Welcome.</h1>
               <p>
                 I am Fernando Alvarez, Frontend Developer. <br /> My goal is
                 provide efficient solutions for each particular client.
               </p>
               <img
                 width="40"
-                style={{ marginTop: 80 }}
+                // style={{ marginTop: 80 }}
                 src={scroll}
                 alt="Scroll Down icon"
                 className={this.props.scrollActive ? "fade show" : "fade"}
