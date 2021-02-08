@@ -16,21 +16,21 @@ a {
     font-size: 70%;
     font-family: "Work Sans", sans-serif;
     border: 1px solid #aaa;
-    padding: 5px;
+    padding: 5px 10px;
     transition: all 120ms linear;
     &:hover {
       background: rgba(#212121, 0.8);
       color: white;
       text-decoration: none;
     }
+    &.cv-link {
+      background: rgba(#344fe9, 0.8);
+      color: white;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
-}
-
-h1,
-h2,
-h3,
-h4 {
-  // font-weight: 600;
 }
 
 p {
@@ -45,8 +45,8 @@ p {
 }
 
 .about {
-  height: 100vh;
   min-height: 900px;
+  padding-top: 140px;
 
   > .container {
     max-width: 80%;
@@ -110,15 +110,22 @@ p {
   }
   .title {
     font-size: 22px;
-    // text-transform: uppercase;
     font-weight: 600;
-    // letter-spacing: 1.5px;
     font-family: "Lora";
+  }
+
+  &.mosaic {
+    &:before {
+      background-color: rgba(#6694fd, 0.32);
+    }
+
+    &:after {
+      background-color: rgba(#a8c3ff, 0.2);
+    }
   }
 
   &.amm {
     &:before {
-      // background-color: rgba(#d3565a, 0.1);
       background-color: rgba(#b0c307, 0.32);
     }
 
@@ -130,7 +137,6 @@ p {
   &.djf {
     &:before {
       background-color: rgba(#312442, 0.15);
-      // background-color: rgba(#ff0453, 0.1);
     }
 
     &:after {
@@ -154,7 +160,6 @@ p {
     font-size: 28px;
   }
   .hola {
-    // height: 720px;
     min-height: 420px;
     .display-4 {
       font-size: 2rem;

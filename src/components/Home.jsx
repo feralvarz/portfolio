@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import centric from "../assets/images/work/centricdigital-2.png";
+import mosaicTech from "../assets/images/work/mosaic-tech.png";
 import amm from "../assets/images/work/amitw.png";
 import djf from "../assets/images/work/dearjack.png";
 import lls from "../assets/images/work/lls.png";
@@ -13,6 +14,14 @@ class Home extends Component {
 
     this.state = {
       works: [
+        {
+          id: "mosaic",
+          title: "Mosaic.tech",
+          img: mosaicTech,
+          url: "https://mosaic.tech/",
+          description:
+            "Fintech app, built in Angular. Worked from v0.1 until v1.0, company raised 18.5M in investments after v1.0 was released."
+        },
         {
           id: "amm",
           title: "Andrew McMahon in the Wilderness",
@@ -65,9 +74,12 @@ class Home extends Component {
                 I am Fernando Alvarez, Frontend Developer. <br /> My goal is
                 provide efficient solutions for each particular client.
               </p>
+              <p>
+                I have created this portfolio to keep some records of the most
+                relevant projects where I was involved.
+              </p>
               <img
                 width="40"
-                // style={{ marginTop: 80 }}
                 src={scroll}
                 alt="Scroll Down icon"
                 className={this.props.scrollActive ? "fade show" : "fade"}
