@@ -3,13 +3,10 @@ html {
   color: #1f1f22;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: auto;
-  height: 100%;
 }
 
 body {
   font-family: "Work Sans", sans-serif;
-  height: 100%;
 }
 
 a {
@@ -20,12 +17,19 @@ a.external {
   font-size: 70%;
   font-family: "Work Sans", sans-serif;
   border: 1px solid #aaa;
-  padding: 5px;
+  padding: 5px 10px;
   transition: all 120ms linear;
 }
 a.external:hover {
   background: rgba(33, 33, 33, 0.8);
   color: white;
+  text-decoration: none;
+}
+a.external.cv-link {
+  background: rgba(52, 79, 233, 0.8);
+  color: white;
+}
+a.external.cv-link:hover {
   text-decoration: none;
 }
 
@@ -41,8 +45,8 @@ p.small {
 }
 
 .about {
-  height: 100vh;
   min-height: 900px;
+  padding-top: 140px;
 }
 .about > .container {
   max-width: 80%;
@@ -102,6 +106,12 @@ p.small {
   font-weight: 600;
   font-family: "Lora";
 }
+.work.mosaic:before {
+  background-color: rgba(102, 148, 253, 0.32);
+}
+.work.mosaic:after {
+  background-color: rgba(168, 195, 255, 0.2);
+}
 .work.amm:before {
   background-color: rgba(176, 195, 7, 0.32);
 }
@@ -144,13 +154,12 @@ p.small {
     padding: 2rem 0.5rem;
   }
 
-  .about.ab-xs {
-    height: initial;
-    padding-top: 4rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  .about {
+    padding: 4rem 1.5rem 0;
   }
-  .about.ab-xs .profile-pic {
+  .about .profile-pic {
     display: none;
   }
 }
+
+/*# sourceMappingURL=/App.6f196564.css.map */
