@@ -106,6 +106,12 @@ p.small {
   font-weight: 600;
   font-family: "Lora";
 }
+.work.sentisis-app:before {
+  background-color: rgba(16, 212, 171, 0.32);
+}
+.work.sentisis-app:after {
+  background-color: rgba(201, 228, 222, 0.2);
+}
 .work.mosaic:before {
   background-color: rgba(102, 148, 253, 0.32);
 }

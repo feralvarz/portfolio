@@ -37737,8 +37737,8 @@ var _default = Navigation;
 exports.default = _default;
 },{"react":"../node_modules/react/index.js","@reach/router":"../node_modules/@reach/router/es/index.js"}],"assets/images/about.jpg":[function(require,module,exports) {
 module.exports = "/about.cd3788e2.jpg";
-},{}],"downloads/resume-fernando-alvarez.pdf":[function(require,module,exports) {
-module.exports = "/resume-fernando-alvarez.b14a6793.pdf";
+},{}],"downloads/resume-fernando-alvarez-2022.pdf":[function(require,module,exports) {
+module.exports = "/resume-fernando-alvarez-2022.3f0a4d53.pdf";
 },{}],"components/About.jsx":[function(require,module,exports) {
 "use strict";
 
@@ -37751,7 +37751,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _about = _interopRequireDefault(require("../assets/images/about.jpg"));
 
-var _resumeFernandoAlvarez = _interopRequireDefault(require("../downloads/resume-fernando-alvarez.pdf"));
+var _resumeFernandoAlvarez = _interopRequireDefault(require("../downloads/resume-fernando-alvarez-2022.pdf"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37795,13 +37795,13 @@ class About extends _react.Component {
       className: "h6 mb-1"
     }, "Frontend"), /*#__PURE__*/_react.default.createElement("ul", {
       className: "small"
-    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Frameworks,"), " Angular, ReactJS, Gatsby"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Reactive programming"), ", RxJS"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "State management"), ", NgRx"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Styling"), ", CSS3, Sass, Less"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "CSS frameworks"), ", Bootstrap, Bulma, Tailwind"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Web components"), ", Material Design, StencilJS"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Charting"), ", AMcharts, D3"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Tables"), ", AGgrid"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "CMS"), ", Wordpress, Shopify"))), /*#__PURE__*/_react.default.createElement("div", {
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Frameworks,"), " Angular, ReactJS, Gatsby"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Reactive programming"), ", RxJS"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "State management"), ", NgRx, Redux"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Styling"), ", CSS3, Sass, Styled Components, Theme-UI"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "CSS frameworks"), ", Bootstrap, Bulma, Tailwind"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Web components"), ", Material Design, StencilJS, Theme-UI"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Charting"), ", AMcharts, D3"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Tables"), ", AGgrid"), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "CMS"), ", Wordpress, Shopify"))), /*#__PURE__*/_react.default.createElement("div", {
       className: "col-md-12"
     }, /*#__PURE__*/_react.default.createElement("h2", {
       className: "h6 mb-1"
     }, "Other"), /*#__PURE__*/_react.default.createElement("ul", {
       className: "small"
-    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Design,"), " UX, UI"), /*#__PURE__*/_react.default.createElement("li", null, "Node, python, mongoDB, flask, GraphQL", " ", /*#__PURE__*/_react.default.createElement("code", null, " !newbie")))), /*#__PURE__*/_react.default.createElement("div", {
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("b", null, "Design,"), " UX, UI"))), /*#__PURE__*/_react.default.createElement("div", {
       className: "col-md-12"
     }, /*#__PURE__*/_react.default.createElement("h2", {
       className: "h6 mb-1"
@@ -37829,10 +37829,12 @@ class About extends _react.Component {
 
 var _default = About;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","../assets/images/about.jpg":"assets/images/about.jpg","../downloads/resume-fernando-alvarez.pdf":"downloads/resume-fernando-alvarez.pdf"}],"assets/images/work/centricdigital-2.png":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../assets/images/about.jpg":"assets/images/about.jpg","../downloads/resume-fernando-alvarez-2022.pdf":"downloads/resume-fernando-alvarez-2022.pdf"}],"assets/images/work/centricdigital-2.png":[function(require,module,exports) {
 module.exports = "/centricdigital-2.6a119635.png";
 },{}],"assets/images/work/mosaic-tech.png":[function(require,module,exports) {
 module.exports = "/mosaic-tech.91077bd7.png";
+},{}],"assets/images/work/sentisis-sm.png":[function(require,module,exports) {
+module.exports = "/sentisis-sm.900f7025.png";
 },{}],"assets/images/work/amitw.png":[function(require,module,exports) {
 module.exports = "/amitw.a8691e03.png";
 },{}],"assets/images/work/dearjack.png":[function(require,module,exports) {
@@ -37906,6 +37908,8 @@ var _centricdigital = _interopRequireDefault(require("../assets/images/work/cent
 
 var _mosaicTech = _interopRequireDefault(require("../assets/images/work/mosaic-tech.png"));
 
+var _sentisisSm = _interopRequireDefault(require("../assets/images/work/sentisis-sm.png"));
+
 var _amitw = _interopRequireDefault(require("../assets/images/work/amitw.png"));
 
 var _dearjack = _interopRequireDefault(require("../assets/images/work/dearjack.png"));
@@ -37929,6 +37933,12 @@ class Home extends _react.Component {
     super(props);
     this.state = {
       works: [{
+        id: "sentisis-app",
+        title: "Sentisis",
+        img: _sentisisSm.default,
+        url: "https://www.sentisis.com/social-media",
+        description: "App for Semantic analysis in social networks, built with React, GraphQl and Redux"
+      }, {
         id: "mosaic",
         title: "Mosaic.tech",
         img: _mosaicTech.default,
@@ -37999,7 +38009,7 @@ class Home extends _react.Component {
 
 var _default = Home;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","../assets/images/work/centricdigital-2.png":"assets/images/work/centricdigital-2.png","../assets/images/work/mosaic-tech.png":"assets/images/work/mosaic-tech.png","../assets/images/work/amitw.png":"assets/images/work/amitw.png","../assets/images/work/dearjack.png":"assets/images/work/dearjack.png","../assets/images/work/lls.png":"assets/images/work/lls.png","../assets/images/work/dim.jpg":"assets/images/work/dim.jpg","../assets/images/scroll.png":"assets/images/scroll.png","./Work":"components/Work.jsx"}],"App.jsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../assets/images/work/centricdigital-2.png":"assets/images/work/centricdigital-2.png","../assets/images/work/mosaic-tech.png":"assets/images/work/mosaic-tech.png","../assets/images/work/sentisis-sm.png":"assets/images/work/sentisis-sm.png","../assets/images/work/amitw.png":"assets/images/work/amitw.png","../assets/images/work/dearjack.png":"assets/images/work/dearjack.png","../assets/images/work/lls.png":"assets/images/work/lls.png","../assets/images/work/dim.jpg":"assets/images/work/dim.jpg","../assets/images/scroll.png":"assets/images/scroll.png","./Work":"components/Work.jsx"}],"App.jsx":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireWildcard(require("react"));
@@ -38109,7 +38119,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49310" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61502" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
