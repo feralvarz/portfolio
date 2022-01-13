@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import centric from "../assets/images/work/centricdigital-2.png";
 import mosaicTech from "../assets/images/work/mosaic-tech.png";
+import sentisis from "../assets/images/work/sentisis-sm.png";
 import amm from "../assets/images/work/amitw.png";
 import djf from "../assets/images/work/dearjack.png";
 import lls from "../assets/images/work/lls.png";
@@ -14,6 +15,14 @@ class Home extends Component {
 
     this.state = {
       works: [
+        {
+          id: "sentisis-app",
+          title: "Sentisis",
+          img: sentisis,
+          url: "https://www.sentisis.com/social-media",
+          description:
+            "App for Semantic analysis in social networks, built with React, GraphQl and Redux"
+        },
         {
           id: "mosaic",
           title: "Mosaic.tech",

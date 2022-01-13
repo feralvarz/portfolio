@@ -114,6 +114,16 @@ p {
     font-family: "Lora";
   }
 
+  &.sentisis-app {
+    &:before {
+      background-color: rgba(#10d4ab, 0.32);
+    }
+
+    &:after {
+      background-color: rgba(#c9e4de, 0.2);
+    }
+  }
+
   &.mosaic {
     &:before {
       background-color: rgba(#6694fd, 0.32);

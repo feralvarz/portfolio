@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import profile_img from "../assets/images/about.jpg";
-import CV from "../downloads/resume-fernando-alvarez.pdf";
+import CV from "../downloads/resume-fernando-alvarez-2022.pdf";
 
 class About extends Component {
   render() {
@@ -51,16 +51,17 @@ class About extends Component {
                         <b>Reactive programming</b>, RxJS
                       </li>
                       <li>
-                        <b>State management</b>, NgRx
+                        <b>State management</b>, NgRx, Redux
                       </li>
                       <li>
-                        <b>Styling</b>, CSS3, Sass, Less
+                        <b>Styling</b>, CSS3, Sass, Styled Components, Theme-UI
                       </li>
                       <li>
                         <b>CSS frameworks</b>, Bootstrap, Bulma, Tailwind
                       </li>
                       <li>
-                        <b>Web components</b>, Material Design, StencilJS
+                        <b>Web components</b>, Material Design, StencilJS,
+                        Theme-UI
                       </li>
                       <li>
                         <b>Charting</b>, AMcharts, D3
@@ -72,17 +73,6 @@ class About extends Component {
                         <b>CMS</b>, Wordpress, Shopify
                       </li>
                     </ul>
-                    {/* Web/Frontend - Frameworks - ReactJS, AngularJS, Angular 2+,
-                    VueJS, NodeJS, jQuery - Styling - CSS, Sass, BEM, postCSS,
-                    autoprefixer - Build - Gulp, Webpack, Grunt, npm, yarn,
-                    bower - SaaS - Heroku, Aptible, AWS - Wordpress - PHP,
-                    templates, plugins */}
-                    {/* <p className="small">
-                      CSS3, HTML5, Javascript, React, Angular, Wordpress,
-                      Highcharts, D3.js, Bootstrap, Adobe Suite, Sketch,
-                      Responsive Web Design, Responsive Web Development, UI
-                      Development.
-                    </p> */}
                   </div>
 
                   <div className="col-md-12">
@@ -91,10 +81,6 @@ class About extends Component {
                     <ul className="small">
                       <li>
                         <b>Design,</b> UX, UI
-                      </li>
-                      <li>
-                        Node, python, mongoDB, flask, GraphQL{" "}
-                        <code> !newbie</code>
                       </li>
                     </ul>
                   </div>
